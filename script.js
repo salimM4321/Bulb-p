@@ -14,9 +14,11 @@ a.addEventListener("click", function(){
  else{
     b.style.backgroundColor = "White";
     switchbutton = 0;
-
-    
  }
+  let audio = document.createElement("audio");
+
+ audio.src = "./light-switch-156813.mp3";
+  audio.autoplay = true;
 });
 
 
