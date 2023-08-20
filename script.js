@@ -7,7 +7,7 @@ a.addEventListener("click", function(){
  if(switchbutton == 0){
    b.style.backgroundColor = "Yellow";
    switchbutton = 1;
-   b.innerHTML = " "
+   b.innerHTML = " ";
   
 
  }
