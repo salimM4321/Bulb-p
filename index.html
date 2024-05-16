@@ -1,20 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample js website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Redirect Link</title>
+    <script>
+        function redirect(link) {
+            window.location.href = link;
+        }
+    </script>
 </head>
 <body>
-  <h1>Bulb Program</h1>
-  <button> || </button>
-  <div class="bulb">Click On the button to light is ON and OFF</div>
-
-  <button class="btn">ON<br><br><br> OFF</button>
-
-  <footer class="ft"> Developed By : Salim Mulla </footer>
-
-   <script src="script.js"></script>
+    <a href="#" onclick="redirect('https://www.facebook.com')">Click here to redirect</a>
 </body>
 </html>
